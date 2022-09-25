@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "ssrco,classic_tee,womens,9ec0d5-0d26d5c715,front_alt,square_product,600x600.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
