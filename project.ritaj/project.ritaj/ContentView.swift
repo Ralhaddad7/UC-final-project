@@ -11,7 +11,7 @@ struct ContentView: View {
     @StateObject var CartManager = cartManager()
     var columns = [GridItem(.adaptive(minimum: 160), spacing: 20)]
     var body: some View {
-        NavigationView {
+        
             ScrollView {
                 LazyVGrid(columns: columns, spacing: 20) {
                     ForEach(productList, id: \.id) { product in
@@ -30,11 +30,13 @@ struct ContentView: View {
                     CartButton(numberOfProducts: CartManager.products.count)
 
                 }
-            }
+            }        .navigationViewStyle(StackNavigationViewStyle())
+
         }
-        .navigationViewStyle(StackNavigationViewStyle())
-    }
+
+    
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

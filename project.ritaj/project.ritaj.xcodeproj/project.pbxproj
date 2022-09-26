@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A217F0F28E21996003044B5 /* secoudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A217F0E28E21996003044B5 /* secoudView.swift */; };
 		6A79E2A828E077F6001454F9 /* project_ritajApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A79E2A728E077F6001454F9 /* project_ritajApp.swift */; };
 		6A79E2AA28E077F6001454F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A79E2A928E077F6001454F9 /* ContentView.swift */; };
 		6A79E2AC28E077F8001454F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A79E2AB28E077F8001454F9 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A217F0E28E21996003044B5 /* secoudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secoudView.swift; sourceTree = "<group>"; };
 		6A79E2A428E077F6001454F9 /* project.ritaj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project.ritaj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A79E2A728E077F6001454F9 /* project_ritajApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project_ritajApp.swift; sourceTree = "<group>"; };
 		6A79E2A928E077F6001454F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 		6A79E2BB28E07B22001454F9 /* views */ = {
 			isa = PBXGroup;
 			children = (
+				6A217F0E28E21996003044B5 /* secoudView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			files = (
 				6A79E2BF28E07D1A001454F9 /* CartView.swift in Sources */,
 				6A79E2B728E07955001454F9 /* product.swift in Sources */,
+				6A217F0F28E21996003044B5 /* secoudView.swift in Sources */,
 				6A79E2C328E07E64001454F9 /* ProductRew.swift in Sources */,
 				6A79E2AA28E077F6001454F9 /* ContentView.swift in Sources */,
 				6A79E2A828E077F6001454F9 /* project_ritajApp.swift in Sources */,
