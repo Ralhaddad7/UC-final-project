@@ -16,7 +16,7 @@ Image("shopping1")
     .resizable()
     .ignoresSafeArea()
     VStack{
-        Text("shopping application!💕")
+        Text("shopping application 🛍 !")
             .font(.title)
             .font(.largeTitle)
             .bold()
@@ -25,7 +25,6 @@ Image("shopping1")
             .padding()
         Spacer() }
     
-  
     
     NavigationLink(destination: ContentView(),
                    label: { Text("Tap me !")
