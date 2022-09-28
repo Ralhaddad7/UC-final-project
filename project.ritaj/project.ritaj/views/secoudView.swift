@@ -11,7 +11,7 @@ import SwiftUI
 struct secoundView:View {
     var body: some View {
         NavigationView {
-
+            
 ZStack{
 Image("shopping1")
     .resizable()
