@@ -19,7 +19,9 @@ struct ContentView: View {
                             .environmentObject(CartManager)
                     }
                 }.padding()
+            
             }
+            
             .navigationTitle(Text("online shop"))
             .toolbar {
                 NavigationLink {

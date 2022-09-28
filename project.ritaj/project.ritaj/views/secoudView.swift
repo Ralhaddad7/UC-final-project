@@ -11,6 +11,7 @@ import SwiftUI
 struct secoundView:View {
     var body: some View {
         NavigationView {
+
 ZStack{
 Image("shopping1")
     .resizable()
@@ -26,7 +27,7 @@ Image("shopping1")
         Spacer() }
     
     
-    NavigationLink(destination: ContentView(),
+    NavigationLink(destination: login(),
                    label: { Text("Tap me !")
             .padding()
             .background(Color.pink)

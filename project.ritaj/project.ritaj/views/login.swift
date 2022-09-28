@@ -14,19 +14,11 @@ struct login: View {
     @State private var wrongPassword = 0
     @State private var showingLoginScreen = false
     var body: some View {
-        NavigationView{
-            
+
             ZStack{
                 
                 
-                Color.pink
-                    .ignoresSafeArea()
-                Circle()
-                    .scale(1.7)
-                    .foregroundColor(.white.opacity(0.15))
-                Circle()
-                    .scale(1.35)
-                    .foregroundColor(.white)
+                Image("shopping1")
                 
                 VStack{
                     Text("Login your acc 🛍")
@@ -55,9 +47,10 @@ struct login: View {
                     .background(Color.pink)
                     .cornerRadius(10)
                     
-                    NavigationLink(destination: Text("You are ligged in @\(username)"),isActive: $showingLoginScreen) {
-                        EmptyView()
-                    }
+                   NavigationLink(destination: ContentView(),
+                                  isActive: $showingLoginScreen) {
+                       EmptyView()
+                   }
                     
                     
                 }
@@ -66,7 +59,7 @@ struct login: View {
             }
             .navigationBarHidden(true)
         }
-    }
+    
     func autheticateUser(username: String , password: String){
         if username.lowercased() == "shopping2022" {
             wrongUsername = 0
@@ -79,8 +72,8 @@ struct login: View {
            
             
             }
-        }
-                           
+        
+}
 
 struct login_Previews: PreviewProvider {
     static var previews: some View {
